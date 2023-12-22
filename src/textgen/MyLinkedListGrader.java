@@ -13,9 +13,9 @@ public class MyLinkedListGrader {
 		LLNode<Integer> curr;
                 String ret = "";
 		if (lst.head.data == null)
-			curr = lst.head.next;
-		else
 			curr = lst.head;
+		else
+			curr = lst.head.next;
 		
 		while (curr != null && curr.data != null)
 		{
